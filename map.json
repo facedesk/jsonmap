@@ -1,0 +1,26 @@
+{
+    "Rooms": 
+     {
+		"Laboratory": {
+            "Doors": {"North":"Laboratory","South":"Hallway"},
+			      "Items": ["Beaker","Goggles","Measuring Stick"]
+                   
+              },
+		"Library": {
+            "Doors": {"South":"Laboratory","North":"Attic"},
+			      "Items": ["Year Book","Ancient Bucket Helmet","Crutch"]
+                   
+              },
+    "Hallway": {
+            "Doors": {"North":"Laboratory"},
+			      "Items": []
+                   
+              },
+     "Attic": {
+            "Doors": {"South":"Library"},
+			      "Items": ["Chest","Cloth Shoes","Pikachu"]
+               }
+              
+      }
+    
+}
